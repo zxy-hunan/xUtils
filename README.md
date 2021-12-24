@@ -7,7 +7,6 @@
 -------  
 轻便型网络请求框架，使用Retrfoit+Rxjava做请求，比较适用于有少量http请求的应用。
 
-使用方式
 # How to
 ## Step 1. 项目根目录build.gradle下添加:
 ``` 
