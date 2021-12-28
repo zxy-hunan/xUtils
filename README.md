@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/zxy-hunan/xUtils.svg)](https://jitpack.io/#zxy-hunan/xUtils)
 
 # xUtils
-最新版本 v1.0.4
+最新版本 v1.0.5
 
 简介
 -------  
@@ -20,7 +20,7 @@
 ## Step 2. App目录build.gradle下添加
 ```  
 	dependencies {
-	        implementation 'com.github.zxy-hunan:xUtils:v1.0.4'
+	        implementation 'com.github.zxy-hunan:xUtils:v1.0.5'
 	}
 ```  
 
