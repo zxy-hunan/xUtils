@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/zxy-hunan/xUtils.svg)](https://jitpack.io/#zxy-hunan/xUtils)
 
 # xUtils
-最新版本 v1.0.5
+最新版本 [![](https://jitpack.io/v/zxy-hunan/xUtils.svg)](https://jitpack.io/#zxy-hunan/xUtils)
 
 简介
 -------  
