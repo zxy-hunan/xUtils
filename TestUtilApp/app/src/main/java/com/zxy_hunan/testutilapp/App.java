@@ -10,6 +10,7 @@ public class App extends Application {
         super.onCreate();
         NetUtil.options().setApiPath(TestService.class)
                 .setDefault_time(10)
+                .setEnableLog(true)
                 .setUrl("https://www.wanandroid.com");
     }
 }

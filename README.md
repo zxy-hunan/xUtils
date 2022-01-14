@@ -20,7 +20,7 @@
 ## Step 2. App目录build.gradle下添加
 ```  
 	dependencies {
-	        implementation 'com.github.zxy-hunan:xUtils:v1.0.5'
+	        implementation 'com.github.zxy-hunan:xUtils:v1.1.0'
 	}
 ```  
 
@@ -34,8 +34,9 @@ public interface TestService extends ApiPath {
 
 ## Step 4. Application中NetUtil初始化
 ```  
-NetUtil.options().setApiPath(TestService.class)
+        NetUtil.options().setApiPath(TestService.class)
                 .setDefault_time(10)
+                .setEnableLog(true)
                 .setUrl("https://www.wanandroid.com");
 ```  
 
