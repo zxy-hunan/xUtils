@@ -22,7 +22,7 @@ public class MainActivity extends RxAppCompatActivity {
                     public void onSuccess(BannerModel result) {
                         Log.i("test","result:"+result.toString());
                         Log.i("test","result:"+result.getErrorMsg()+" "+result.getErrorCode()+" "+result.getData().size());
-                        Toast.makeText(MainActivity.this, ""+result.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, ""+result.getErrorMsg()+","+result.getData().get(0).getTitle(), Toast.LENGTH_SHORT).show();
                     }
 
                     @Override

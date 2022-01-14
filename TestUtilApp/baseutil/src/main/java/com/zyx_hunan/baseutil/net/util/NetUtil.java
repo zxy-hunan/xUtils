@@ -17,6 +17,7 @@ public class NetUtil {
     public static ApiPath apiPath = null;
 
 
+
     public static Options options(){
         if(options == null){
             options = new Options();
@@ -57,7 +58,7 @@ public class NetUtil {
                 .readTimeout(options.default_time, TimeUnit.SECONDS)//设置读取超时时间
                 .connectTimeout(options.default_time, TimeUnit.SECONDS)//设置请求超时时间
                 .writeTimeout(options.default_time, TimeUnit.SECONDS)//设置写入超时时间
-                .addInterceptor(new LogInterceptor())//添加打印拦截器
+                .addInterceptor(new LogInterceptor(options.enableLog))//添加打印拦截器
                 .retryOnConnectionFailure(true)//设置出现错误进行重新连接。
                 .build();
     }

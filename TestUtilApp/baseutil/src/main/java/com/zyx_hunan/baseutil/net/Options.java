@@ -5,6 +5,7 @@ public class Options<T> {
     public String url="";
     public int default_time=0;
     public Class<T> apiPath = null;
+    public boolean enableLog=true;
 
     public String getUrl() {
         return url;
@@ -26,6 +27,11 @@ public class Options<T> {
 
     public Options setApiPath(Class<T> apiPath) {
         this.apiPath = apiPath;
+        return this;
+    }
+
+    public Options setEnableLog(boolean enableLog) {
+        this.enableLog = enableLog;
         return this;
     }
 }
